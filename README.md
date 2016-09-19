@@ -26,6 +26,8 @@ This is a shell script for using the [Pushover](https://pushover.net/) push serv
 
 ## Installation ##
 
+**UPDATE:** Was integrated into netdata [alarm-notify.sh](https://github.com/firehol/netdata/pull/919).
+
 Copy the `alarm-pushover.sh` shell script to the netdata's plugin folder, which by default is `/usr/libexec/netdata/plugins.d/`.
 The config file `health_pushover_tokens.conf` goes to netdata's config directory, which by default is "/etc/netdata/".
 
